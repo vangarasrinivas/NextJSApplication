@@ -1,0 +1,11 @@
+.usersdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userdiv{
+    border: 1px solid ;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}

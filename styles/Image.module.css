@@ -1,0 +1,8 @@
+.imagesdiv{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+.image{
+    margin: 5px;
+}

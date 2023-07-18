@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+.navbarItem{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.activenavitem{
+    background-color: aliceblue;
+    padding: 1px 5px;
+    border-radius: 5px;
+}

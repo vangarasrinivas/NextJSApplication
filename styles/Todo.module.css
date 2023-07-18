@@ -1,0 +1,64 @@
+.input{
+    display: block;
+    width: 400px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    border-color: inherit;
+    background-color: #fff;
+}
+
+.todoTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formNone{
+    display: none;
+}
+
+.formwrapperactive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -80px;
+    background-color: rgb(0,0,0,0,6);
+    z-index: 100;
+
+}
+
+.todoForm{
+    background-color: rgb(158, 207, 207);
+    width: 450px;
+    padding: 20px 5px;
+    border-radius: 5px;
+
+}
+ 
+
+.small{
+    height: 2rem;
+    font-size: 0.875rem;
+}
+.medium{
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.large{
+    height: 3rem;
+    font-size: 1.25rem;
+}
+
+.formButtons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.todoTitle{
+    margin-bottom: 10px;
+}
